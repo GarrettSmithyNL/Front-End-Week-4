@@ -1,0 +1,107 @@
+<!-- 
+    This is a web page that demos the use of flex boxes
+    Date: Jan 24 2024
+    By: Garrett Smith 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Things With Flexboxes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <h1>Things With Flexboxes</h1>
+  </header>
+  <body>
+    <!-- This creating the main container for the entire page -->
+    <div class="MainFlex">
+      <!--
+        These "Section" divs are the items in the main page container, 
+        and each "Section" includes a bit of text and a div. The div is set up to be
+        its own flex container which will hold 3 boxes that are used to demo
+        how flexboxes work.
+      -->
+      <!-- This Section 1 used to show the conatiner. -->
+      <div class="Section1">
+        <h2>This is a container.</h2>
+        <div class="Flex1"></div>
+      </div>
+      <!-- Section 2 is used to show the boxes. -->
+      <div class="Section2">
+        <h2>This is a container with 3 items.</h2>
+        <div class="Flex2">
+          <div class="Box1">Box #1</div>
+          <div class="Box2">Box #2</div>
+          <div class="Box3">Box #3</div>
+        </div>
+      </div>
+      <!-- Section 3 is used to show that you can reverse the order of the boxes -->
+      <div class="Section3">
+        <h2>This is a container with 3 items in reverse order.</h2>
+        <div class="Flex3">
+          <div class="Box1">Box #1</div>
+          <div class="Box2">Box #2</div>
+          <div class="Box3">Box #3</div>
+        </div>
+      </div>
+      <!-- Section 4 is used to show that you can put the items into a column -->
+      <div class="Section4">
+        <h2>
+          This is a container with 3 items in a column and in reverse order.
+        </h2>
+        <div class="Flex4">
+          <div class="Box1">Box #1</div>
+          <div class="Box2">Box #2</div>
+          <div class="Box3">Box #3</div>
+        </div>
+      </div>
+      <!-- 
+        Section 5 is used to show that you can move specific item around in the ordering. 
+        This is done by using a class and an id to set the position 
+        of each of the items in the container.
+      -->
+      <div class="Section5">
+        <h2>
+          This is a container with 3 items in a column, reversed order <br />
+          and the 3rd item in the middle.
+        </h2>
+        <div class="Flex5">
+          <div class="Box1" id="S5B1">Box #1</div>
+          <div class="Box2" id="S5B2">Box #2</div>
+          <div class="Box3" id="S5B3">Box #3</div>
+        </div>
+      </div>
+      <!-- Section 4 is used to add an additional box -->
+      <div class="Section6">
+        <h2>This is a container with 4 items.</h2>
+        <div class="Flex6">
+          <div class="Box1">Box #1</div>
+          <div class="Box2">Box #2</div>
+          <div class="Box3">Box #3</div>
+          <div class="Box4">Box #4</div>
+        </div>
+      </div>
+      <!-- 
+        Section 7 is used to show that you can make the items fit that conaitner, 
+        and that you can set the position left or right for each item. This is done
+        by the same method used in Section 5. 
+      -->
+      <div class="Section7">
+        <h2>
+          This is a container with 4 items in columns that is made fit the
+          container<br />
+          and the odd items on the left and the even on the right.
+        </h2>
+        <div class="Flex7">
+          <div class="Box1" id="S7B1">Box #1</div>
+          <div class="Box2" id="S7B2">Box #2</div>
+          <div class="Box3" id="S7B3">Box #3</div>
+          <div class="Box4" id="S7B4">Box #4</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

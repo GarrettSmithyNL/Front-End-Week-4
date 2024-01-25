@@ -1,0 +1,143 @@
+h1 {
+  text-align: center;
+}
+.MainFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Flex1 {
+  width: 800px;
+  height: 150px;
+  border: 3px solid black;
+}
+
+.Flex2 {
+  width: 800px;
+  height: 150px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Flex3 {
+  width: 800px;
+  height: 150px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Flex4 {
+  width: 800px;
+  height: 400px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Flex5 {
+  width: 800px;
+  height: 400px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Flex6 {
+  width: 800px;
+  height: 150px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Flex7 {
+  width: 800px;
+  height: 200px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Box1 {
+  width: 200px;
+  height: 100px;
+  border: 3px solid darkblue;
+  background-color: blue;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+}
+
+.Box2 {
+  width: 200px;
+  height: 100px;
+  border: 3px solid darkred;
+  background-color: red;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+}
+
+.Box3 {
+  width: 200px;
+  height: 100px;
+  border: 3px solid darkgreen;
+  background-color: green;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+}
+
+.Box4 {
+  width: 200px;
+  height: 100px;
+  border: 3px solid darkviolet;
+  background-color: violet;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+}
+
+#S5B1 {
+  order: 1;
+}
+
+#S5B2 {
+  order: 3;
+}
+
+#S5B3 {
+  order: 2;
+}
+
+#S7B1 {
+  align-self: flex-start;
+}
+
+#S7B2 {
+  align-self: flex-end;
+}
+
+#S7B3 {
+  align-self: flex-start;
+}
+
+#S7B4 {
+  align-self: flex-end;
+}
